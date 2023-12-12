@@ -42,4 +42,16 @@ gsap.to("#main",{
         scrub:1,
     }
 })
+gsap.to("#pg2",{
+    opacity:1,
+    scale: 1.34,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#pg2",
+        scroller:"body",
+        start: "top 80%",
+        end: "bottom 80%",
+        scrub: 2,
+    }
+})
 

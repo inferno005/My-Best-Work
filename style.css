@@ -146,15 +146,67 @@ h4:hover{
     font-weight: 500;
     color: #191919;
 }
+
+#page1 a{
+    left: 95%;
+    top: 90%;
+    font-size: 25px;
+    position: fixed;
+    padding: 5px 12px;
+    /* background-color: black; */
+    border-radius: 50%;
+    transition: background-color 0.5s;
+}
+#page1 a:hover{
+    background-color: rgba(0, 0, 0, 0.452);
+}
+#page1 i{
+    color: black;
+    transition: color 0.5s;
+}
+#page1 i:hover{
+    color: #A9A9A9;
+}
 #page2{
     height: 100vh;
     width: 100%;
 }
+#pg2 {
+    height: 75vh;
+    width: 75%;
+    top: 12%;
+    opacity: 0;
+    margin-left: 170px;
+    position: relative;
+    
+}
 #video2{
-    height: 90vh;
+    height: 75vh;
     width: 100%;
     object-fit: cover;
-    margin-top: 10vh;
-    /* margin-left: 50%; */
-    border-radius: 20px 0;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#heading-content{
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+#heading-content h1{
+    background-image: linear-gradient(20deg,#e65c00,#F9D423);
+    background-clip: text;
+    color: transparent;
+}
+#heading-content h3{
+    color: white;
+    font-weight: 300;
+}
+
+
+
+
+#page3{
+    height: 100vh;
+    width: 100%;
 }
